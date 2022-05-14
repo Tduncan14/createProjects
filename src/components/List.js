@@ -41,7 +41,7 @@ function List(){
     return (
         <div>
             <h2>Characters</h2>
-    
+    <div className="row">
            {loading ? (<div>...Loading </div>) :(
                characters.map((character) => (
 
@@ -56,6 +56,7 @@ function List(){
                ))
 
            )}
+           </div>
         </div>
     )
 

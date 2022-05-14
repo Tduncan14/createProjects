@@ -1,0 +1,13 @@
+
+body{
+    background-color:beige !important;
+}
+
+body img{
+    max-height:400px !important;
+}
+
+.card{
+    margin-bottom:3rem;
+    height:500px;
+}
